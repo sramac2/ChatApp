@@ -46,6 +46,7 @@ class _ChatPageState extends State<ChatPage> {
               icon: Icon(Icons.logout),
               onPressed: () {
                 Navigator.pop(context);
+                Navigator.pop(context);
                 Navigator.push(context,
                     MaterialPageRoute(builder: (builder) => LoginDemo()));
               },
